@@ -8,7 +8,7 @@ CORS(app)
 @app.route('/weather', methods=['GET'])
 def get_weather():
     city = request.args.get('city')
-    api_key = "YOUR_OPENWEATHER_API_KEY"
+    api_key = "a916efd49322bc59968ba36bc2c3e587"
     base_url = "http://api.openweathermap.org/data/2.5/weather"
 
     params = {
